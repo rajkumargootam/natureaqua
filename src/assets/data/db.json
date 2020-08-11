@@ -1,0 +1,11 @@
+{
+  "products": [
+    { "id": 1,
+      "name": "json-server",
+      "category_id": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
