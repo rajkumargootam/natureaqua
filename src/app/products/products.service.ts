@@ -39,7 +39,7 @@ export class ProductsService {
   }
 
   searchDateProduct(dateParam){
-    const productUrl = 'http://localhost:3000/products/date='+categoryId;
+    const productUrl = 'http://localhost:3000/products/date='+dateParam;
     return this.httpClient.get(productUrl); //return Observanle
 
   }
