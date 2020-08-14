@@ -91,8 +91,18 @@
         "warranty": "2"
      }
   ],
+  "categories": [
+    { "id": 1, "categoryName": "Accessories " },
+    { "id": 2, "categoryName": "Aquarium Tanks" },
+    { "id": 3, "categoryName": "Aquatic Plants" },
+    { "id": 4, "categoryName": "Aquatic Plants-Combo Offers" },
+    { "id": 5, "categoryName": "Co2 System" },
+    { "id": 6, "categoryName": "Filtration System" }
+  ],
+
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
+
   "profile": { "name": "typicode" }
 }

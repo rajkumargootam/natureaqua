@@ -1,6 +1,4 @@
-<h1 class="my-4">Shop Name</h1>
+<!-- <h3 class="my-4 text-center">Categories</h3> -->
 <div class="list-group">
-  <a href="#" class="list-group-item">Category 1</a>
-  <a href="#" class="list-group-item">Category 2</a>
-  <a href="#" class="list-group-item">Category 3</a>
+  <a href="#" class="list-group-item" *ngFor="let cat of categoryList">{{cat.categoryName}}</a>
 </div>

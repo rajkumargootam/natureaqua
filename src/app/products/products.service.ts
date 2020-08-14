@@ -1,5 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Product } from './product';
+import { Observable } from 'rxjs';
+import { category } from '../site-framework/category';
 
 @Injectable({
   providedIn: 'root'
@@ -8,39 +11,51 @@ export class ProductsService {
 
   constructor(private httpClient: HttpClient) { }
 
-  createProduct(productBody){
+  getAllproducts(): Observable<Product>{
     const productUrl = 'http://localhost:3000/products';
-    return this.httpClient.post(productUrl,productBody); //return Observanle
+    return this.httpClient.get<Product>(productUrl); //return Observable
 
   }
 
-  viewProduct(productId){
+  getCategories(): Observable<category>{
+    const categoriesUrl = 'http://localhost:3000/categories';
+    return this.httpClient.get<category>(categoriesUrl); //return Observable
+
+  }
+
+  createProduct(productBody): Observable<Product>{
+    const productUrl = 'http://localhost:3000/products';
+    return this.httpClient.post<Product>(productUrl,productBody); //return Observable
+
+  }
+
+  viewProduct(productId): Observable<Product>{
     const productUrl = 'http://localhost:3000/product/'+productId;
-    return this.httpClient.get(productUrl); //return Observanle
+    return this.httpClient.get<Product>(productUrl); //return Observable
 
   }
 
-  updateProduct(productId, productBody){
+  updateProduct(productId, productBody): Observable<Product>{
     const productUrl = 'http://localhost:3000/product/'+productId;
-    return this.httpClient.put(productUrl,productBody); //return Observanle
+    return this.httpClient.put<Product>(productUrl,productBody); //return Observable
 
   }
 
-  deleteProduct(productId){
+  deleteProduct(productId): Observable<Product>{
     const productUrl = 'http://localhost:3000/product/'+productId;
-    return this.httpClient.delete(productUrl); //return Observanle
+    return this.httpClient.delete<Product>(productUrl); //return Observable
 
   }
 
-  searchCategoryProduct(categoryId){
+  searchCategoryProduct(categoryId): Observable<Product>{
     const productUrl = 'http://localhost:3000/products/categoryId='+categoryId;
-    return this.httpClient.get(productUrl); //return Observanle
+    return this.httpClient.get<Product>(productUrl); //return Observable
 
   }
 
-  searchDateProduct(dateParam){
+  searchDateProduct(dateParam): Observable<Product>{
     const productUrl = 'http://localhost:3000/products/date='+dateParam;
-    return this.httpClient.get(productUrl); //return Observanle
+    return this.httpClient.get<Product>(productUrl); //return Observable
 
   }
 
