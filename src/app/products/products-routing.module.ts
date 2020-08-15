@@ -15,10 +15,10 @@ const routes: Routes = [
 /*  { path: '', component: ProductsComponent },*/
   { path: 'create-product', component: CreateProductComponent },
   /*{ path: 'list-products', component: ViewAllProductsComponent },*/
-  { path: 'search', component: ViewAllProductsByCategoryComponent },
+  { path: 'category/:id', component: ViewAllProductsByCategoryComponent },
   { path: 'search-date', component: ViewAllProductsByDateComponent },
   { path: 'delete-product/:id', component: DeleteProductComponent },
-  { path: 'view-product/:id', component: ViewProductComponent },
+  { path: 'product/:id', component: ViewProductComponent },
   { path: 'update-product/:id', component: UpdateProductComponent },
 
 ];
