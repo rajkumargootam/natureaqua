@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { OrdersModule } from './orders/orders.module';
 import { SiteFrameworkModule } from './site-framework/site-framework.module';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, NgForm, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent
@@ -15,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     HttpClientModule,
     OrdersModule,
+    FormsModule,
     SiteFrameworkModule
   ],
   providers: [],

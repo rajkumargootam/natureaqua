@@ -6,13 +6,16 @@ body {
     position: relative;
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: #007bff
+    background-color: #6bd340;
 }
 
 .logo {
     color: #fff;
     font-size: 25px;
-    font-weight: 600
+    font-weight: 600;
+    max-width: 100%;
+    height: auto;
+
 }
 
 .brand-wrap {

@@ -1,108 +1,167 @@
 {
   "products": [
-    {       "id": 1,
-            "img": "https://natureaqua.in/img/category/home1-category-2.jpg",
-            "categoryId": "1",
-            "productName": "Fertilizers & Additives",
-            "note": "Simply dummy text of the printing",
-            "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "discountPrice": 350.00,
-            "price": 100.00,
-            "status": "none",
-            "stock": "In stock",
-            "review": "(250 review)",
-            "rating": 4,
-            "vendor_name": "seller - 1",
-            "warranty": "2"
+    {
+      "id": 1,
+      "img": "https://natureaqua.in/img/category/home1-category-2.jpg",
+      "categoryId": "1",
+      "productName": "Fertilizers & Additives",
+      "note": "Simply dummy text of the printing",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "discountPrice": 350,
+      "price": 100,
+      "status": "none",
+      "stock": "In stock",
+      "review": "(250 review)",
+      "rating": 4,
+      "vendor_name": "seller - 1",
+      "warranty": "2"
     },
-    {  "id": 2,
-            "img": "https://natureaqua.in/img/category/home1-category-3.jpg",
-            "categoryId": "2",
-            "productName": "Filtration System",
-            "note": "Simply dummy text of the printing",
-            "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "discountPrice": 350.00,
-            "price": 100.00,
-            "status": "none",
-            "stock": "In stock",
-            "review": "(250 review)",
-            "rating": 4,
-            "vendor_name": "seller - 2",
-            "warranty": "2"
+    {
+      "id": 2,
+      "img": "https://natureaqua.in/img/category/home1-category-3.jpg",
+      "categoryId": "2",
+      "productName": "Filtration System",
+      "note": "Simply dummy text of the printing",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "discountPrice": 350,
+      "price": 100,
+      "status": "none",
+      "stock": "In stock",
+      "review": "(250 review)",
+      "rating": 4,
+      "vendor_name": "seller - 2",
+      "warranty": "2"
     },
-    {  "id": 3,
-            "img": "https://natureaqua.in/img/category/home1-category-4.jpg",
-            "categoryId": "3",
-            "productName": "Fish Food",
-            "note": "Simply dummy text of the printing",
-            "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "discountPrice": 350.00,
-            "price": 100.00,
-            "status": "none",
-            "stock": "In stock",
-            "review": "(250 review)",
-            "rating": 4,
-            "vendor_name": "seller - 1",
-            "warranty": "2"
+    {
+      "id": 3,
+      "img": "https://natureaqua.in/img/category/home1-category-4.jpg",
+      "categoryId": "3",
+      "productName": "Fish Food",
+      "note": "Simply dummy text of the printing",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "discountPrice": 350,
+      "price": 100,
+      "status": "none",
+      "stock": "In stock",
+      "review": "(250 review)",
+      "rating": 4,
+      "vendor_name": "seller - 1",
+      "warranty": "2"
     },
-    {  "id": 4,
-            "img": "https://natureaqua.in/img/category/home1-category-5-min.jpg",
-            "categoryId": "4",
-            "productName": "Lighting",
-            "note": "Simply dummy text of the printing",
-            "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-            "discountPrice": 350.00,
-            "price": 100.00,
-            "status": "none",
-            "stock": "In stock",
-            "review": "(550 review)",
-            "rating": 4,
-            "vendor_name": "seller - 4",
-            "warranty": "2"
+    {
+      "id": 4,
+      "img": "https://natureaqua.in/img/category/home1-category-5-min.jpg",
+      "categoryId": "4",
+      "productName": "Lighting",
+      "note": "Simply dummy text of the printing",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "discountPrice": 350,
+      "price": 100,
+      "status": "none",
+      "stock": "In stock",
+      "review": "(550 review)",
+      "rating": 4,
+      "vendor_name": "seller - 4",
+      "warranty": "2"
     },
-    {   "id": 5,
-        "img": "https://natureaqua.in/img/category/home1-category-1-min.jpg",
-        "categoryId": "5",
-        "productName": "Fitted T-Shirt",
-        "note": "Simply dummy text of the printing",
-        "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        "discountPrice": 350.00,
-        "price": 100.00,
-        "status": "none",
-        "stock": "In stock",
-        "review": "(450 review)",
-        "rating": 4,
-        "vendor_name": "seller - 5",
-        "warranty": "2"
+    {
+      "id": 5,
+      "img": "https://natureaqua.in/img/category/home1-category-1-min.jpg",
+      "categoryId": "5",
+      "productName": "Fitted T-Shirt",
+      "note": "Simply dummy text of the printing",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "discountPrice": 350,
+      "price": 100,
+      "status": "none",
+      "stock": "In stock",
+      "review": "(450 review)",
+      "rating": 4,
+      "vendor_name": "seller - 5",
+      "warranty": "2"
     },
-    {   "id": 6,
-        "img": "https://www.w3schools.com/howto/img_avatar.png",
-        "categoryId": "6",
-        "productName": "Half Sleeve",
-        "note": "Simply dummy text of the printing",
-        "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        "discountPrice": 350.00,
-        "price": 100.00,
-        "status": "none",
-        "stock": "In stock",
-        "review": "(350 review)",
-        "rating": 4,
-        "vendor_name": "seller - 6",
-        "warranty": "2"
-     }
+    {
+      "id": 6,
+      "img": "https://natureaqua.in/img/category/home1-category-4.jpg",
+      "categoryId": "6",
+      "productName": "Fish Food",
+      "note": "Simply dummy text of the printing",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "discountPrice": 350,
+      "price": 100,
+      "status": "none",
+      "stock": "In stock",
+      "review": "(350 review)",
+      "rating": 4,
+      "vendor_name": "seller - 6",
+      "warranty": "2"
+    },
+    {
+      "id": 10,
+      "categoryId": "8",
+      "productName": "EHEIN air 100",
+      "description": "new product",
+      "rating": "5",
+      "price": "500",
+      "productImg": "https://natureaqua.in/image/cache/catalog/181018101017-nature-aqua1102890391-600x600.jpg",
+      "isAvailable": 1
+    },
+    {
+      "id": 11,
+      "categoryId": "9",
+      "productName": "EHEIN air 200",
+      "description": "New Product",
+      "rating": "5",
+      "price": "800",
+      "stock": "4",
+      "review": "This is an awesome product."
+    },
+    {
+      "id": 12,
+      "categoryId": "10",
+      "productName": "EHEIN air 300",
+      "description": "New Product",
+      "rating": "5",
+      "price": "1000",
+      "img": "https://natureaqua.in/image/cache/catalog/181018101017-nature-aqua1102890391-600x600.jpg",
+      "stock": "2",
+      "review": "this is an awesome product in the market and it is very worth it."
+    }
   ],
   "categories": [
-    { "id": 1, "categoryName": "Accessories " },
-    { "id": 2, "categoryName": "Aquarium Tanks" },
-    { "id": 3, "categoryName": "Aquatic Plants" },
-    { "id": 4, "categoryName": "Aquatic Plants-Combo Offers" },
-    { "id": 5, "categoryName": "Co2 System" },
-    { "id": 6, "categoryName": "Filtration System" }
+    {
+      "id": 1,
+      "categoryName": "Accessories "
+    },
+    {
+      "id": 2,
+      "categoryName": "Aquarium Tanks"
+    },
+    {
+      "id": 3,
+      "categoryName": "Aquatic Plants"
+    },
+    {
+      "id": 4,
+      "categoryName": "Aquatic Plants-Combo Offers"
+    },
+    {
+      "id": 5,
+      "categoryName": "Co2 System"
+    },
+    {
+      "id": 6,
+      "categoryName": "Filtration System"
+    }
   ],
-
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
-
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }

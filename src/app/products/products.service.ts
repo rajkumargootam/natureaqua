@@ -30,7 +30,7 @@ export class ProductsService {
   }
 
   viewProduct(productId): Observable<Product>{
-    const productUrl = 'http://localhost:3000/product/'+productId;
+    const productUrl = 'http://localhost:3000/products/'+productId;
     return this.httpClient.get<Product>(productUrl); //return Observable
 
   }
